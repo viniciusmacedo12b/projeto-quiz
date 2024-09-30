@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <link rel="icon" type="x-icon" href="quiz.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="HUD">
+        <h1>QUIZ SOBRE HTML5 E CSS3</h1>
+
+        <P id="pergunta">1. Qual é a principal função do HTML em um site?</P>
+    <div id="questoes">
+        <button id="r1" class="errado" onclick="resposta1()">A) Estilizar o conteúdo da página.</button>
+        <button id="r2" class="errado" onclick="resposta2()">B) Adicionar interatividade ao site.</button>
+        <button id="r3" class="certo" onclick="resposta3()">C) Estruturar o conteúdo da página.</button>
+        <button id="r4" class="errado" onclick="resposta4()">D) Gerenciar o banco de dados do site.</button>
+    </div>
+    </div>
+    <div id="proximo"><button onclick="proxima()">PROXIMA ==></button></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
